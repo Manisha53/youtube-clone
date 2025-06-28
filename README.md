@@ -2,7 +2,7 @@
 Deploying a YouTube-clone app using Azure DevOps
 
 
-# 🚀 Azure DevOps Build Pipeline - Build and Deploy a YouTube Clone 
+# Azure DevOps Build Pipeline - Build and Deploy a YouTube Clone 
 
 
 ## Steps to set the infrastructure
@@ -91,8 +91,11 @@ stages:
         packageForLinux: '$(System.ArtifactsDirectory)/drop'
         RuntimeStack: 'STATICSITE|1.0'
 ```
-
+Successful pipeline in Azure Devops Portal
 ![Screenshot 2025-06-28 191449](https://github.com/user-attachments/assets/1e96464b-7da8-41d8-8c93-4290ea679f72)
+
+Snapshot of my App service in Azure Portal-
+![image](https://github.com/user-attachments/assets/dc490166-aa9f-4840-8bc2-1dfaf69469bf)
 
 Output: Deployed the YouTube-Clone Successfully
 ![Screenshot 2025-06-28 191614](https://github.com/user-attachments/assets/f75aa42a-38a3-4529-91e2-28deb3829abf)
